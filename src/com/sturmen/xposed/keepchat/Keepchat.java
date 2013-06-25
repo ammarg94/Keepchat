@@ -180,7 +180,7 @@ public class Keepchat implements IXposedHookLoadPackage {
 					throws Throwable {
 				XposedBridge.log("Reporting screenshotted.");
 				// the line
-				return true;
+				return false;
 			}
 		});
 	}
